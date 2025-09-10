@@ -1,0 +1,56 @@
+MahaaAi Plants Table 5000 Analysis
+========================================
+Total rows: 5000
+Total columns: 50
+
+Column Names:
+Plant_ID, Plant_Name, Category, Scientific_Name, Region, Age_Days, Height_cm, Leaf_Count, Flower_Count, Fruit_Count, Soil_pH, Soil_Moisture, Soil_Temperature, Soil_Nutrients_N, Soil_Nutrients_P, Soil_Nutrients_K, Organic_Content, EC_Level, Soil_Type, Soil_Color, Water_pH, Water_Temp, Water_Alkalinity, Water_TDS, Water_Salinity, Water_FlowRate, Water_Usage, Water_Quality, Water_Level, Water_Source, Robot_ID, Robot_Action, Drone_Scan, AI_Disease_Flag, AI_Growth_Index, Health_Score, Photosynthesis_Rate, Chlorophyll_Level, Oxygen_Output, Carbon_Absorption, Humidity, Air_Temp, Sunlight_Intensity, UV_Index, CO2_Level, O2_Level, Wind_Speed, Pest_Count, Yield_Prediction, Market_Price
+
+Summary Statistics (Numeric Columns):
+          Plant_ID     Age_Days    Height_cm   Leaf_Count  Flower_Count  Fruit_Count      Soil_pH  Soil_Moisture  Soil_Temperature  Soil_Nutrients_N  Soil_Nutrients_P  Soil_Nutrients_K  Organic_Content     EC_Level     Water_pH   Water_Temp  Water_Alkalinity    Water_TDS  Water_Salinity  Water_FlowRate  Water_Usage  Water_Level  AI_Growth_Index  Health_Score  Photosynthesis_Rate  Chlorophyll_Level  Oxygen_Output  Carbon_Absorption     Humidity     Air_Temp  Sunlight_Intensity     UV_Index    CO2_Level     O2_Level   Wind_Speed   Pest_Count  Yield_Prediction  Market_Price
+count  5000.000000  5000.000000  5000.000000  5000.000000   5000.000000   5000.00000  5000.000000    5000.000000       5000.000000       5000.000000       5000.000000       5000.000000      5000.000000  5000.000000  5000.000000  5000.000000       5000.000000  5000.000000     5000.000000     5000.000000  5000.000000  5000.000000      5000.000000   5000.000000          5000.000000        5000.000000    5000.000000        5000.000000  5000.000000  5000.000000         5000.000000  5000.000000  5000.000000  5000.000000  5000.000000  5000.000000       5000.000000   5000.000000
+mean   2500.500000   605.958400   204.968200   152.850800    101.219800     50.47620     6.796054      50.035200         27.273600         55.163000         39.869400         50.037000         5.598652     1.295036     7.204012    25.087000         89.810400   279.174200        0.151407        2.581856    10.176308    55.074200        56.069000     65.521600             5.990424          34.948000      12.973018           8.989474    69.502000    28.442400          798.832800     6.522000   418.706400    19.996568     7.413800    24.964600         61.702600    101.586600
+std    1443.520003   342.034396   113.448893    85.401597     58.001161     29.07701     0.401681      23.428942         10.451497         20.553942         17.596792         23.505951         0.806127     0.306509     0.304136     9.013328         29.376846    59.350518        0.086248        1.379137     5.714838    26.089079         3.898112      6.291474             1.717760          14.716542       4.070635           3.490469     6.073959     3.013519          173.958556     3.452057    35.108653     0.570872     4.661557    14.851985         33.450482     56.814164
+min       1.000000    10.000000    10.000000     5.000000      0.000000      0.00000     5.450000      10.000000         10.000000         20.000000         10.000000         10.000000         2.890000     0.320000     6.080000    10.000000         40.000000   100.000000        0.000000        0.200000     0.500000    10.000000        40.000000     41.000000             3.000000          10.000000       6.010000           3.000000    46.000000    16.000000          500.000000     1.000000   360.000000    19.000000     0.000000     0.000000          5.000000      5.000000
+25%    1250.750000   312.000000   106.000000    79.000000     52.000000     25.00000     6.520000      30.000000         18.000000         37.000000         24.000000         30.000000         5.057500     1.080000     6.990000    17.000000         64.000000   239.000000        0.076750        1.370000     5.100000    33.000000        55.000000     61.000000             4.530000          22.000000       9.440000           5.920000    65.000000    26.000000          649.000000     3.000000   388.000000    19.510000     3.000000    12.000000         33.000000     51.000000
+50%    2500.500000   600.000000   206.000000   151.000000    101.000000     51.00000     6.790000      50.000000         27.000000         55.000000         40.000000         50.000000         5.600000     1.300000     7.200000    25.000000         90.000000   279.000000        0.152000        2.580000    10.190000    55.000000        55.000000     66.000000             6.000000          35.000000      12.915000           9.045000    69.000000    28.000000          800.000000     7.000000   418.000000    19.990000     7.000000    25.000000         61.000000    102.000000
+75%    3750.250000   902.000000   303.000000   228.000000    152.000000     75.25000     7.070000      71.000000         36.000000         73.000000         55.000000         71.000000         6.130000     1.510000     7.420000    33.000000        115.000000   320.000000        0.225000        3.762500    15.150000    77.000000        60.000000     70.000000             7.450000          48.000000      16.492500          12.022500    74.000000    30.000000          950.000000    10.000000   450.000000    20.500000    11.000000    38.000000         90.250000    151.000000
+max    5000.000000  1200.000000   400.000000   300.000000    200.000000    100.00000     8.270000      90.000000         45.000000         90.000000         70.000000         90.000000         8.300000     2.280000     8.210000    40.000000        140.000000   522.000000        0.300000        5.000000    20.000000   100.000000        60.000000     84.000000             9.000000          60.000000      20.000000          15.000000    90.000000    39.000000         1100.000000    12.000000   480.000000    21.000000    15.000000    50.000000        120.000000    200.000000
+
+Top 10 Most Common Plant Names:
+Plant_Name
+Cotton    367
+Potato    361
+Guava     356
+Wheat     348
+Rice      347
+Tomato    336
+Mango     335
+Neem      333
+Banana    332
+Tulasi    326
+
+Top 5 Most Common Regions:
+Region
+India    3333
+USA      1356
+UAE       311
+
+Average Health Score by Category:
+Category
+Vegetable    65.781923
+Fiber        65.757440
+Spice        65.570978
+Fruit        65.442451
+Medicinal    65.424742
+Cereal       65.366799
+
+Correlation between Health Score and AI Growth Index: 0.62
+
+Top 5 Plants by Yield Prediction:
+ Plant_ID  Plant_Name  Yield_Prediction  Market_Price
+     2333        Jute               120            69
+     3445       Wheat               120           161
+     1231 Pomegranate               120           147
+     2991        Neem               120           106
+     4162      Banana               120           127
