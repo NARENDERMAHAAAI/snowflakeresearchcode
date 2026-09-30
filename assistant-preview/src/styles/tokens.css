@@ -1,0 +1,39 @@
+/* MahaaAi assistant design tokens — calm, earthy, high-contrast. */
+:root {
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Telugu', 'Nirmala UI', 'Gautami', sans-serif;
+
+  --bg: #f6f4ee;
+  --surface: #ffffff;
+  --surface-2: #efece3;
+  --ink: #1d2a22;
+  --ink-2: #4a5850;
+  --line: #d9d3c4;
+
+  --brand: #1f4d3a;
+  --brand-strong: #173b2c;
+  --brand-soft: #e2eee5;
+  --on-brand: #ffffff;
+
+  --nari: #2d6a4c;
+  --nari-soft: #e2eee5;
+  --maitri: #83502a;
+  --maitri-soft: #f6eadf;
+
+  --info: #245a86;
+  --info-soft: #e5eef7;
+  --attention: #7d5a00;
+  --attention-soft: #fbf0d2;
+  --warning: #97430b;
+  --warning-soft: #fbe6d7;
+  --safety: #9b1c1c;
+  --safety-soft: #fbe3e1;
+  --ok: #2d6a4c;
+  --muted-state: #6b6b6b;
+
+  --focus: #0a5fb4;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --shadow: 0 1px 2px rgb(29 42 34 / 6%), 0 4px 16px rgb(29 42 34 / 6%);
+  --space: 16px;
+  --tap: 44px;
+}
